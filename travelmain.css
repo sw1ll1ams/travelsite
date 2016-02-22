@@ -2,8 +2,7 @@
 
 * {
 	box-sizing: border-box;
-	text-decoration: none;
-	
+	text-decoration: none;	
 }
 
 
@@ -36,9 +35,9 @@ h2 {
 
 /* Links */
 
-a, a:hover, a:visited {
+a, a:hover, a:visited, a:active {
 	text-decoration: none;
-	color: gray;
+	color: black;
 }
 
 .navbar {
@@ -72,8 +71,14 @@ p {
 
 
 
-h1 {
+.name {
 font-size: 8em;
+font-family: 'Mr Dafoe';
+letter-spacing: .02em;
+}
+
+.season {
+font-size: 4em;
 font-family: 'Mr Dafoe';
 letter-spacing: .02em;
 }
@@ -119,6 +124,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe1c6', end
 
 footer {
 	margin-top: 10px;
+}
+
+.footerspring {
+	margin-top: -10px;
 }
 
 footer p, footer a, footer a:visited {
