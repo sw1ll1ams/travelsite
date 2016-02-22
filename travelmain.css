@@ -1,0 +1,148 @@
+/* For Everything */
+
+* {
+	box-sizing: border-box;
+	text-decoration: none;
+	
+}
+
+
+
+.main {
+	margin-top: 50px;
+}
+
+body {;
+	max-width: 75%;
+	background-color: #CFFEF0;
+	background: url('Photo 26-10-2015-3.jpeg');
+	background-size: cover;
+	margin: 0 auto;
+	font-family: 'Lato'; 
+	letter-spacing: 0.05em;
+}
+
+p {
+	font-size: .85em;
+	margin-bottom: 1em;
+	line-height: 1.5;
+}
+
+h2 {
+	padding: .8em 0 .5em;
+	font-size: 1.4em;
+	letter-spacing: .02em;
+}
+
+/* Links */
+
+a, a:hover, a:visited {
+	text-decoration: none;
+	color: gray;
+}
+
+.navbar {
+	background: white;
+	height: 55px;
+}
+
+.navbar li { 
+	display: inline-block;
+	margin: 0.6em 0.6em;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: 14px;
+	}
+
+.navbar a {
+		text-decoration: none;
+	}
+
+
+p {
+	color: #555;
+}
+
+.content a:hover {
+	color: gray;
+}
+
+/* Header */
+
+
+
+h1 {
+font-size: 8em;
+font-family: 'Mr Dafoe';
+letter-spacing: .02em;
+}
+
+h1 a {
+	text-decoration: none;
+}
+
+.main-header {
+	margin-top: 55px;
+	padding: 8em 0 1em;
+	text-align: center;
+	background: #FFE1C6;
+	background: -moz-linear-gradient(top, #fff2e8 10%, #ffe1c6 63%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #fff2e8 10%,#ffe1c6 63%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #fff2e8 10%,#ffe1c6 63%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffe1c6',GradientType=0 ); /* IE6-9 */
+
+}
+
+.content {
+	text-align: center;
+	font-size: 1.2em;
+	margin: 0px auto;
+	background: white;
+	padding: 2em 5em 2em;
+	background: -moz-linear-gradient(top, #ffffff 77%, #ffe1c6 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ffffff 77%,#ffe1c6 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,#ffffff 77%,#ffe1c6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe1c6', endColorstr='#ffe1c6',GradientType=0 ); /* IE6-9 */
+
+}
+
+#dropdownMenu1 {
+	text-transform: uppercase;
+}
+
+.btn {
+	border: none;
+	padding: 0.5em 2em;
+	margin: 0 2.5em;
+}
+
+footer {
+	margin-top: 10px;
+}
+
+footer p, footer a, footer a:visited {
+	color: black;
+}
+
+.title1 {
+	width: 100%;
+	margin: 0 3.5em 7em;
+}
+
+.carousel-caption {
+	padding-bottom: 5px;
+}
+
+.globe {
+	height: 60%;
+	width: 60%;
+}
+
+.dropdown-menu li a {
+	padding: 3px 60px;
+}
+
+.nav > li:nth-child(3) > div:nth-child(1) > button:nth-child(1) {
+	width: 100px;
+}
