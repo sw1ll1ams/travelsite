@@ -142,7 +142,3 @@ footer p, footer a, footer a:visited {
 .dropdown-menu li a {
 	padding: 3px 60px;
 }
-
-.nav > li:nth-child(3) > div:nth-child(1) > button:nth-child(1) {
-	width: 100px;
-}
