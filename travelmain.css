@@ -5,6 +5,13 @@
 	text-decoration: none;	
 }
 
+a {
+	text-decoration: none;
+}
+
+.feedback {
+	font-size: 1.5em;
+}
 
 
 .main {
@@ -47,7 +54,7 @@ a, a:hover, a:visited, a:active {
 
 .navbar li { 
 	display: inline-block;
-	margin: 0.6em 0.6em;
+	margin: 0.6em 2.9em .6em 2.9em;
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: .1em;
@@ -150,4 +157,43 @@ footer p, footer a, footer a:visited {
 
 .dropdown-menu li a {
 	padding: 3px 60px;
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+.navbar li { 
+	display: inline;
+	}
+
+.name {
+	font-size: 3em;
+	margin: 2em 0 0 -2em;
+}
+
+.location {
+	height: 100%;
+	width: 100%;
+}
+
+.globe {
+	display: none;
+}
+
+body {
+	max-width: 90%;
+}
+
+.text {
+	max-width: 90%;
+}
+
+.season {
+	font-size: 3em;
+}
+
+p, .alert {
+	margin: 0 -30px;
+}
 }

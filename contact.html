@@ -12,7 +12,7 @@
 <link rel= "stylesheet" type= "text/css" href= "travelmain.css">
 <link href='https://fonts.googleapis.com/css?family=Lato|Mr+Dafoe' rel='stylesheet' type='text/css'>
 
-<title>Time to Travel: Spring</title>
+<title>Time to Travel</title>
 
 </head>
 <body>
@@ -92,36 +92,45 @@
 
 <div class="content">	
 
-<p class="season">Spring</p>
+<p class="season">Contact &nbsp;Us</p>
+<p>Got any suggestions for places to travel per the seasons?<br> Want to tell us how much you love us?<br>Got an idea of how we can get even better?<br><br> Let us know below!</p><br>
  
- <span id="budget"><div class="page-header"><h1>Budget <small>Paris</small></h1>
-</div>
-
-<img src="images/spring.jpg" height="60%" width="60%" class="location"><br><br>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue.<br><br>
-
-
-<div class="alert alert-success" role="alert"><b>Best Part:</b><br>Vivamus fermentum semper porta. Nunc diam velit, adipiscing ut tristique vitae, sagittis vel. </div>
-<div class="alert alert-danger" role="alert"><b>Worst Part:</b><br>Vivamus fermentum semper porta. Nunc diam velit, adipiscing ut tristique vitae, sagittis vel.</div></span><br>
-
-<span id="luxury"><div class="page-header"><h1>Luxury <small>Marrakech</small></h1>
-</div>
-    
-<img src="images/spring.jpg" height="60%" width="60%" class="location"><br><br>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue.<br><br>
-
-<div class="alert alert-success" role="alert"><b>Best Part:</b><br>Vivamus fermentum semper porta. Nunc diam velit, adipiscing ut tristique vitae, sagittis vel.</div>
-<div class="alert alert-danger" role="alert"><b>Worst Part:</b><br>Vivamus fermentum semper porta. Nunc diam velit, adipiscing ut tristique vitae, sagittis vel.</div></span>
-<br>
-
-<nav>
-  <ul class="pager">
-    <li><a href="winter.html">Previous</a></li>
-    <li><a href="summer.html">Next</a></li>
-  </ul>
-</nav>
+ <form class="form-horizontal" role="form" method="post" action="index.php">
+    <div class="form-group">
+        <label for="name" class="col-sm-2 control-label">Name</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="name" name="name" placeholder="First Name" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="email" class="col-sm-2 control-label">Email</label>
+        <div class="col-sm-10">
+            <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="message" class="col-sm-2 control-label">Suggestion or message</label>
+        <div class="col-sm-10">
+            <textarea class="form-control" rows="4" name="message"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-10 col-sm-offset-2">
+            <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-10 col-sm-offset-2">
+            <! Will be used to display an alert to the user>
+        </div>
+    </div>
+</form>
 
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
